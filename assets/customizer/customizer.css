@@ -1,0 +1,53 @@
+/*
+ * Theme Customizer
+ * © 2013. Brickr
+ */
+ 
+ .wpc-customizer {
+   position: fixed;
+   top:140px;
+   left:-315px;
+   z-index: 1005;
+   width: 420px;
+ }
+ 
+ .wpc-customizer [class^="wpb-icon"] {
+   font-size: 3em;
+   line-height: 50px;
+   padding: 10px;
+ }
+ 
+ .wpc-customizer .wpc-customizer-icon {
+   width: 50px;
+   height: 50px;
+   float:left;
+   text-align: center;
+   line-height: 50px;
+   background-color: #e3e3e3;
+   border-radius:0px 5px 5px 0px;
+   border:1px solid transparent;
+   overflow: hidden;
+ }
+ 
+ .wpc-customizer .wpc-customizer-icon a {
+   color: #333 !important;
+ }
+ 
+ .wpc-customizer .wpc-customizer-content {
+   width: 270px;
+   min-height: 100px;
+   float:left;
+   background-color: #e3e3e3;
+   border-radius:0px 0px 5px 0px;
+   border:1px solid transparent;
+   overflow: hidden;
+   padding: 10px 20px;
+ }
+ 
+ .wpc-customizer .wpc-customizer-content p {
+   text-transform: uppercase;
+ }
+ 
+ .wpc-customizer .wpc-customizer-content h3 {
+   margin: 0;
+ }

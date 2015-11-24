@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<!-- Site Description -->
+<meta name="description" content="Flatnica">
+
+<!-- Site Author -->
+<meta name="author" content="Brickr at ThemeForest.net">
+
+<!-- site charset -->
+<meta charset="utf-8">
+
+<!-- viewport for mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- FavIcon 16x16 -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+
+<title>Flatnica - Ultimate Flat Theme</title>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-responsive.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.responsive.css">
+
+<!-- Theme Customizer -->
+<link rel="stylesheet" href="assets/customizer/customizer.css" type="text/css">
+
+<!-- ElastiSlide -->
+<script type="text/javascript" src="js/assets/elastislide/modernizr.custom.17475.js"></script>
+<link rel="stylesheet" type="text/css" href="js/assets/elastislide/elastislide.css">
+
+<!-- IsoTope -->
+<link rel="stylesheet" type="text/css" href="css/isotope.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="assets/font-awesome/font-awesome.min.css">
+
+<!-- jQuery UI -->
+<link rel="stylesheet" type="text/css" href="assets/jquery-ui/jquery-ui-1.10.3.custom.css">
+
+<!-- FlexSlider -->
+<link rel="stylesheet" type="text/css" href="assets/flexslider/flexslider.css">
+
+<!-- Google Fonts -->
+<link rel="stylesheet" type="text/css" href="css/fonts/montserrat.css">
+
+
+</head>
+<body>
+    
+<div class="wpc-customizer">
+  
+  <div class="wpc-customizer-content">
+  <form method="post" name="customizer-form" action="/flatnica/index-full-slider.html">
+    <p>Templates</p>
+    <select name="customizer[template]" id="template">
+      <option value="-">- select a template -</option>
+      <option value="index.html">Front Page with Teaser Content</option>
+      <option value="index-slider.html">Front Page with Teaser Slider</option>
+      <option value="index-full-slider.html">Front Page with Full Height Slider</option>
+      <option value="index-video.html">Front Page with Teaser Video</option>
+      <option value="portfolio.html">Portfolio</option>
+      <option value="single-portfolio.html">Single Portfolio</option>
+      <option value="blog.html">Blog</option>
+      <option value="single-blog.html">Single Blog</option>
+    </select>
+    <br/>
+    <p>Color Themes</p>
+    <select name="customizer[skin]" id="skin">
+      <option value="-">- select a skin -</option>
+      <option value="default.css">Default</option>
+      <option value="blue.css">Blue</option>
+      <option value="purple.css">Purple</option>
+      <option value="orange.css">Orange</option>
+      <option value="red.css">Red</option>
+    </select> 
+    <p>Fonts</p>   
+    <select name="customizer[font]" id="font">
+      <option value="-">- select font -</option>
+      <option value="Montserrat">Montserrat (default)</option>
+      <option value="Open Sans">Open Sans</option>
+      <option value="Carrois Gothic">Carrois Gothic</option>
+      <option value="Source Code Pro">Source Code Pro</option>
+      <option value="Monda">Monda</option>
+      <option value="Ubuntu">Ubuntu</option>
+      <option value="Finger Paint">Finger Paint</option>
+      <option value="Denk One">Denk One</option>
+      <option value="Arial">Arial</option>
+      <option value="Chivo">Chivo</option>
+    </select>     
+  </form>
+  </div>
+  <div class="wpc-customizer-icon">
+    <a href="#"><i class="wpb-icon-gear"></i></a>
+  </div>
+  
+</div>
+<!-- Fixed Logo & Menu Bar Start -->
+<section class="wpb-top-bar">
+
+  <div class="container">
+    <div class="row">
+    
+      <!-- Logo -->
+      <div class="span3 wpb-logo-container"><a href="#">Flatnica.</a></div>
+      
+      <!-- Menu -->
+      <div class="span9 wpb-menu-container">
+        <ul class="wpb-main-menu">
+          <li>
+            <a href="index.html">Home +</a>
+            <ul class="wpb-main-menu-child">
+              <li><a href="single-blog.html">Single Blog</a></li>
+              <li><a href="single-portfolio.html">Single Portfolio</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="index-slider.html" class="accordion">Teaser +</a>
+            <ul class="wpb-main-menu-child">
+              <li><a href="index-full-slider.html" class="active">Full Height Slider</a></li>
+              <li><a href="index-video.html">Video Teaser</a></li>
+              <li><a href="index-slider.html">Slider Teaser</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  
+</section>
+<!-- Fixed Logo & Menu Bar End -->
+
+<!-- Teaser Start -->
+<section class="wpb-slider superslider">
+
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="demo/slider/01.jpg" alt="Slide 01" />
+      <div class="wpb-slide-content">
+        <div class="wpb-slide-inner">
+          <div class="wpb-slider-box left">
+            <h3>This is a test!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id aliquet massa. Quisque sodales at arcu a imperdiet. Duis purus eros, luctus eu sagittis ac, mattis sit amet dolor. </p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <img src="demo/slider/02.jpg" alt="Slide 01" />
+    </li>
+    <li>
+      <img src="demo/slider/01.jpg" alt="Slide 01" />
+      <div class="wpb-slide-content">
+        <div class="wpb-slide-inner">
+          <div class="wpb-slider-box right">
+            <h3>This is a test!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id aliquet massa. Quisque sodales at arcu a imperdiet. Duis purus eros, luctus eu sagittis ac, mattis sit amet dolor. </p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+</section>
+<!-- Teaser End -->
+
+<!-- Widget Box Bar Start -->
+<section class="wpb-widget-box-bar">
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Widget Box Start -->
+      <div class="wpb-widget-box span3">
+        <div class="wpb-icon-heart"></div>
+        <div class="wpb-title">Designed with Love</div>
+        <div class="wpb-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta orci ac mauris suscipit fringilla. Etiam tempor arcu id erat commodo, non dapibus augue luctus.</div>
+      </div>
+      <!-- Widget Box End -->
+      
+      <!-- Widget Box Start -->
+      <div class="wpb-widget-box span3">
+        <div class="wpb-icon-mobile-phone"></div>
+        <div class="wpb-title">Make it responsive</div>
+        <div class="wpb-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta orci ac mauris suscipit fringilla. Etiam tempor arcu id erat commodo, non dapibus augue luctus.</div>
+      </div>
+      <!-- Widget Box End -->
+      
+      <!-- Widget Box Start -->
+      <div class="wpb-widget-box span3">
+        <div class="wpb-icon-check-sign"></div>
+        <div class="wpb-title">Fully Responsive</div>
+        <div class="wpb-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta orci ac mauris suscipit fringilla. Etiam tempor arcu id erat commodo, non dapibus augue luctus.</div>
+      </div>
+      <!-- Widget Box End -->
+      
+      <!-- Widget Box Start -->
+      <div class="wpb-widget-box span3">
+        <div class="wpb-icon-time"></div>
+        <div class="wpb-title">Always on Time</div>
+        <div class="wpb-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta orci ac mauris suscipit fringilla. Etiam tempor arcu id erat commodo, non dapibus augue luctus.</div>
+      </div>
+      <!-- Widget Box End -->
+  
+    </div>
+  </div>
+
+</section>
+<!-- Widget Box Bar End -->
+
+
+<!-- About Us Start -->
+<section class="wpb-about-us white">
+
+  <!-- Title Bar Start -->
+  <div class="wpb-section-title">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+    
+        <div class="wpb-title">
+          About Us
+          <div class="wpb-title-description">// Our story...</div>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Title Bar End -->
+  
+  <!-- Full Width Carousel Start -->
+  <div class="wpb-elastislide">
+    <ul class="wpb-elastislide-list">
+    
+      <li><a href="#"><img src="demo/01.jpg" alt="Slide 01" /></a></li>
+      <li><a href="#"><img src="demo/02.jpg" alt="Slide 02" /></a></li>
+      <li><a href="#"><img src="demo/workspaces/3.jpg" alt="Slide 03" /></a></li>
+      <li><a href="#"><img src="demo/workspaces/4.jpg" alt="Slide 03" /></a></li>
+      <li><a href="#"><img src="demo/workspaces/5.jpg" alt="Slide 03" /></a></li>
+      <li><a href="#"><img src="demo/workspaces/2.jpg" alt="Slide 03" /></a></li>
+      <li><a href="#"><img src="demo/workspaces/1.jpg" alt="Slide 03" /></a></li>
+      
+    </ul>
+  </div>
+  <!-- Full Width Carousel End -->
+  
+  <!-- Content Start -->
+  <div class="container container-margin">
+    <div class="row">
+    
+      <!-- Left Column Start -->
+      <div class="span6">
+        <h3>Who are we?</h3>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+      </div>
+      <!-- Left Column End -->
+      <!-- Right Column Start -->
+      <div class="span6">
+        <h3>We are hiring</h3>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        <a href="#">
+          <div class="wpb-button full">
+            <span>Hire me</span>
+          </div>
+        </a>
+      </div>
+      <!-- Right Column End -->
+      
+    </div>
+  </div>
+  <!-- Content End -->
+
+</section>
+<!-- About Us End -->
+
+
+<!-- Who are We Start -->
+<section class="wpb-who-are-we light-blue">
+
+  <!-- Title Bar Start -->
+  <div class="wpb-section-title">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+    
+        <div class="wpb-title">
+          Team
+          <div class="wpb-title-description">// Who are we</div>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Title Bar End -->
+  
+  <!-- Content Start -->
+  <div class="container container-margin">
+    <div class="row">
+    
+    <ul class="wpb-team-list">
+      <!-- Team Member Item Start -->
+      <li class="wpb-team-item span4">
+        <div class="wpb-team-thumbnail">
+          <img src="demo/small/370x300/01.jpg" alt="John Doe" />
+          <div class="wpb-team-overlay">
+            <div>
+              <div class="content">
+                <h3>Programmer</h3>
+                <a href="#"><i class="wpb-icon-facebook"></i></a>
+                <a href="#"><i class="wpb-icon-twitter"></i></a>
+                <a href="#"><i class="wpb-icon-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wpb-team-details">
+          <h3>John Doe</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Team Member Item End -->
+      
+      <!-- Team Member Item Start -->
+      <li class="wpb-team-item span4">
+        <div class="wpb-team-thumbnail">
+          <img src="demo/small/370x300/02.jpg" alt="Jane Doe" />
+          <div class="wpb-team-overlay">
+            <div>
+              <div class="content">
+                <h3>Designer</h3>
+                <a href="#"><i class="wpb-icon-facebook"></i></a>
+                <a href="#"><i class="wpb-icon-twitter"></i></a>
+                <a href="#"><i class="wpb-icon-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wpb-team-details">
+          <h3>Jane Doe</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Team Member Item End -->
+      
+      <!-- Team Member Item Start -->
+      <li class="wpb-team-item span4">
+        <div class="wpb-team-thumbnail">
+          <img src="demo/small/370x300/03.jpg" alt="Mark Doe" />
+          <div class="wpb-team-overlay">
+            <div>
+              <div class="content">
+                <h3>Support</h3>
+                <a href="#"><i class="wpb-icon-facebook"></i></a>
+                <a href="#"><i class="wpb-icon-twitter"></i></a>
+                <a href="#"><i class="wpb-icon-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wpb-team-details">
+          <h3>Mark Doe</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Team Member Item End -->
+  
+    </ul>
+      
+    </div>
+  </div>
+  <!-- Content End -->
+
+</section>
+<!-- Who are We End -->
+
+
+<!-- Portfolio Start -->
+<section class="wpb-portfolio light-blue">
+
+  <!-- Title Bar Start -->
+  <div class="wpb-section-title">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+    
+        <div class="wpb-title">
+          Portfolio
+          <div class="wpb-title-description">// What we made</div>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Title Bar End -->
+  
+  <!-- Content Start -->
+  <div class="container container-margin">
+    <div class="row">
+    
+    <ul class="wpb-portfolio-list">
+      <!-- Portfolio Item Start -->
+      <li class="wpb-portfolio-item span4 web-design">
+        <div class="wpb-portfolio-thumbnail">
+         <a href="single-portfolio.html">
+          <img src="demo/small/370x170/01.jpg" alt="Portfolio Item" />
+          <div class="wpb-portfolio-overlay">
+            <div><img src="img/plus-icon.png" alt="Details" class="" /></div>
+          </div>
+         </a>
+        </div>
+        <div class="wpb-portfolio-details">
+          <h3>Portfolio Title</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Portfolio Item End -->
+      
+      <!-- Portfolio Item Start -->
+      <li class="wpb-portfolio-item span4 ui-design">
+        <div class="wpb-portfolio-thumbnail">
+         <a href="single-portfolio.html">
+          <img src="demo/small/370x170/02.jpg" alt="Portfolio Item" />
+          <div class="wpb-portfolio-overlay">
+            <div><img src="img/plus-icon.png" alt="Details" class="noimagecenter" /></div>
+          </div>
+         </a>
+        </div>
+        <div class="wpb-portfolio-details">
+          <h3>Portfolio Title</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Portfolio Item End -->
+      
+      <!-- Portfolio Item Start -->
+      <li class="wpb-portfolio-item span4 web-design">
+        <div class="wpb-portfolio-thumbnail">
+         <a href="single-portfolio.html">
+          <img src="demo/small/370x170/03.jpg" alt="Portfolio Item" />
+          <div class="wpb-portfolio-overlay">
+            <div><img src="img/plus-icon.png" alt="Details" class="noimagecenter" /></div>
+          </div>
+         </a>
+        </div>
+        <div class="wpb-portfolio-details">
+          <h3>Portfolio Title</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Portfolio Item End -->
+      
+      <!-- Portfolio Item Start -->
+      <li class="wpb-portfolio-item span4 web-design">
+        <div class="wpb-portfolio-thumbnail">
+         <a href="single-portfolio.html">
+          <img src="demo/small/370x170/04.jpg" alt="Portfolio Item" />
+          <div class="wpb-portfolio-overlay">
+            <div><img src="img/plus-icon.png" alt="Details" class="noimagecenter" /></div>
+          </div>
+         </a>
+        </div>
+        <div class="wpb-portfolio-details ui-design">
+          <h3>Portfolio Title</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Portfolio Item End -->
+      
+      <!-- Portfolio Item Start -->
+      <li class="wpb-portfolio-item span4 logo-design">
+        <div class="wpb-portfolio-thumbnail">
+         <a href="single-portfolio.html">
+          <img src="demo/small/370x170/05.jpg" alt="Portfolio Item" />
+          <div class="wpb-portfolio-overlay">
+            <div><img src="img/plus-icon.png" alt="Details" class="noimagecenter" /></div>
+          </div>
+         </a>
+        </div>
+        <div class="wpb-portfolio-details">
+          <h3>Portfolio Title</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Portfolio Item End -->
+      
+      <!-- Portfolio Item Start -->
+      <li class="wpb-portfolio-item span4 logo-design">
+        <div class="wpb-portfolio-thumbnail">
+         <a href="single-portfolio.html">
+          <img src="demo/small/370x170/06.jpg" alt="Portfolio Item" />
+          <div class="wpb-portfolio-overlay">
+            <div><img src="img/plus-icon.png" alt="Details" class="noimagecenter" /></div>
+          </div>
+         </a>
+        </div>
+        <div class="wpb-portfolio-details">
+          <h3>Portfolio Title</h3>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+      </li>
+      <!-- Portfolio Item End -->
+    </ul>
+      
+    </div>
+  </div>
+  <!-- Content End -->
+
+</section>
+<!-- Portfolio End -->
+
+<!-- Partner Logo Start -->
+<section class="wpb-partners">
+
+  <div class="container">
+    <div class="row">
+    
+      <!-- Partner List Start -->
+      <div class="span12">
+        <ul class="wpb-partners-list">
+          <li>
+           <a href="#">
+             <img src="demo/partners/adobe.png" alt="Adobe" />
+             <div class="wpb-partner-testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet porttitor aliquam. Mauris elit lectus, tristique vel mattis nec, molestie ut leo.</div>
+           </a>
+          </li>
+          <li>
+           <a href="#">
+             <img src="demo/partners/dribbble.png" alt="Dribbble" />
+             <div class="wpb-partner-testimonial">Mauris aliquet porttitor aliquam. Mauris elit lectus, tristique vel mattis nec, molestie ut leo.</div>
+           </a>
+          </li>
+          <li>
+           <a href="#">
+             <img src="demo/partners/jquery.png" alt="jQuery" />
+             <div class="wpb-partner-testimonial">Lorem ipsum dolor sit amet, Mauris aliquet porttitor aliquam. Mauris elit lectus, tristique vel mattis nec, molestie ut leo.</div>
+           </a>
+          </li>
+          <li>
+           <a href="#">
+             <img src="demo/partners/nbc.png" alt="NBC" />
+             <div class="wpb-partner-testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet porttitor aliquam. Mauris elit lectus, tristique vel mattis nec, molestie ut leo.</div>
+           </a>
+          </li>
+          <li>
+           <a href="#">
+             <img src="demo/partners/samsung.png" alt="Samsung" />
+             <div class="wpb-partner-testimonial">Vestibulum sagittis malesuada mi in dapibus. Aliquam blandit, ligula id dictum pulvinar, tellus risus porttitor sapien, a adipiscing sem elit nec felis.</div>
+           </a>
+          </li>
+          <li>
+           <a href="#">
+             <img src="demo/partners/sony.png" alt="Sony" />
+             <div class="wpb-partner-testimonial">Vestibulum sagittis malesuada , ligula id dictum pulvinar, tellus risus porttitor sapien, a adipiscing sem elit nec felis.</div>
+           </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Partner List End -->
+      
+    </div>
+  </div>
+
+</section>
+<!-- Partner Logo End -->
+
+<!-- Blog Items List Start -->
+<section class="wpb-blog-list light-green">
+ 
+  <!-- Title Bar Start -->
+  <div class="wpb-section-title">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+    
+        <div class="wpb-title">
+          Blog
+          <div class="wpb-title-description">// What we wrote</div>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Title Bar End -->
+ 
+  <div class="container">
+    <div class="row">
+    
+      <div class="span6 wpb-single-blog-item">
+        <h3>Pink Tea</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tellus aliquam sapien rutrum facilisis at at magna. Cras a erat vel mi varius imperdiet eget nec nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tellus aliquam sapien rutrum facilisis at at magna. Cras a erat vel mi varius imperdiet eget nec nisi.</p>
+        <a href="single-blog.html">
+          <div class="wpb-button full light">
+            <span>Read More</span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="span6 wpb-blog-items">
+      
+        <!-- Blog Item Start -->
+        <div class="wpb-blog-item">
+         <a href="single-blog.html">
+          <img src="demo/small/285x170/01.jpg" alt="Blog Item 1" />
+         </a>
+        </div>
+        <!-- Blog Item End -->
+        
+        <!-- Blog Item Start -->
+        <div class="wpb-blog-item">
+         <a href="single-blog.html">
+          <img src="demo/small/285x170/02.jpg" alt="Blog Item 1" />
+         </a>
+        </div>
+        <!-- Blog Item End -->
+        
+        <!-- Blog Item Start -->
+        <div class="wpb-blog-item">
+         <a href="single-blog.html">
+          <img src="demo/small/285x170/03.jpg" alt="Blog Item 1" />
+         </a>
+        </div>
+        <!-- Blog Item End -->
+        
+        <!-- Blog Item Start -->
+        <div class="wpb-blog-item">
+         <a href="single-blog.html">
+          <img src="demo/small/285x170/04.jpg" alt="Blog Item 1" />
+         </a>
+        </div>
+        <!-- Blog Item End -->
+        
+        <div class="clear"></div>
+      </div>
+    
+    </div>
+  </div>
+
+</section>
+<!-- Blog Items List End -->
+
+<!-- Contact Us Start -->
+<section class="wpb-contact-us parallax-background-contact">
+  
+  <!-- Background Google Maps -->
+  <iframe class="google-map-container" data-address="London, United Kingdom" data-zoom="14"></iframe>
+  
+  <!-- Background Opacity Filter -->
+  <div class="background-opacity"></div>
+  
+  <!-- Title Bar Start -->
+  <div class="wpb-section-title">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+    
+        <div class="wpb-title">
+          Contact us
+          <div class="wpb-title-description">// Ask us a question</div>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Title Bar End -->
+ 
+  <div class="container">
+    <div class="row">
+    
+      <!-- Contact Form Start -->
+      <div class="span6">
+        
+        <div class="wpb-form-container">
+          <form method="post" class="wpb-contact-form-container" action="_ajax_contact.html">
+            
+            <div class="wpb-input-field">
+              <input type="text" name="your-name" id="your-name" value="Your name..." />
+            </div>
+            
+            <div class="wpb-input-field">
+              <input type="text" name="your-email" id="your-email" value="Your e-mail..." />
+            </div>
+            
+            <div class="wpb-input-field">
+              <textarea name="your-message" id="your-message" rows="8">Message</textarea>
+            </div>
+            
+            <a href="#" class="wpb-contact-form">
+              <div class="wpb-button full light">
+                <span>Send</span>
+              </div>
+            </a>
+            
+          </form>
+        </div>
+        
+      </div>
+      <!-- Contact Form End -->
+    
+      <!-- Contact Details Start -->
+      <div class="span6">
+        <div class="wpb-contact-us-info">
+          <ul>
+            <li><h3>Awesome People</h3></li>
+            <li>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English...</li>
+            <li><h3>WpBrickr</h3></li>
+            <li>London, United Kingdom</li>
+            <li><a href="#" class="wpb-display-map"><div class="wpb-button small"><span>View on Map</span></div></a></li>
+            <li>+359 1500 698</li>
+            <li>info@wpbrickr.com</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Contact Details End -->
+    
+    </div>
+  </div>
+
+</section>
+<!-- Contact Us End -->
+
+<!-- Footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      
+      <div class="span6">
+        <ul class="wpb-footer-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index-slider.html">Slider Teaser</a></li>
+          <li><a href="index-video.html">Video Teaser</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </div>
+      <div class="span6 text-right">&#169; 2013. All Rights Reserved by WpBrickr</div>
+      
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43068976-1', 'wpbrickr.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- JavaScript -->
+<script type="text/javascript" src="js/jquery.js"></script> <!-- jQuery -->
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script> <!-- BootStrap -->
+<script type="text/javascript" src="js/assets/jquery.partners.js"></script> <!-- jQuery Partners List -->
+<script type="text/javascript" src="assets/flexslider/jquery.flexslider-min.js"></script> <!-- FlexSlider -->
+<script type="text/javascript" src="js/assets/parallax.js"></script> <!-- Parallax Background -->
+<script type="text/javascript" src="js/assets/elastislide/jquerypp.custom.js"></script>  <!-- ElastiSlide -->
+<script type="text/javascript" src="js/assets/elastislide/jquery.elastislide.js"></script>  <!-- ElastiSlide -->
+<script type="text/javascript" src="js/assets/responsive.menu.js"></script>  <!-- Responsive Menu -->
+<script type="text/javascript" src="js/assets/isotope.min.js"></script>  <!-- IsoTope -->
+<script type="text/javascript" src="assets/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script> <!-- jQuery UI -->
+<script type="text/javascript" src="js/common.js"></script>  <!-- Common -->
+
+<script type="text/javascript" src="assets/customizer/customizer.js"></script> <!-- Theme Customizer-->
+</body>
+</html>

@@ -1,0 +1,123 @@
+/*
+ * Flatnica Skins
+ * - Blue
+ */
+ 
+ a:hover {
+   color: #16709b !important;
+ }
+ 
+ .wpb-menu-container .wpb-main-menu li a.active {
+   background-color: #1399d9;
+ }
+ 
+ .wpb-button {
+   background-color: #16709b;
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-button:hover {
+   background-color: #15516d;
+   color: #fff !important;
+ }
+ 
+ .wpb-button.light {
+   background-color: #16709b;
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-button.light:hover {
+   background-color: #15516d;
+   color: #fff !important;
+ }
+ 
+ .wpb-partners-testimonial-container {
+   background-color: #1399d9;
+ }
+ 
+ .light-green {
+   background-color: #1399d9;
+ }
+ 
+ .wpb-widget-box-bar {
+   background-image: url('images/blue/widget-bar-bg.jpg') !important;
+ }
+ 
+ .wpb-partners-list li a.active {
+   background-image: url('images/blue/arrow-up.png') !important;
+ }
+ 
+ .wpb-search-form button {
+   background-color: #1399d9 !important;
+ }
+ 
+ .tagcloud a {
+   background-color: #1399d9 !important;
+ }
+ 
+ .wpb-blog-navigation ul li a.active {
+   background-color: #1399d9 !important;
+ }
+ 
+ .wpb-meta-comments {
+   background-color: #1399d9 !important;
+ }
+ 
+ .wpb-meta-comments-overlay {
+   background-color: #16709b !important;
+ }
+ 
+ .wpb-portfolio-body .wpb-portfolio-filter li a.active {
+   background-color: #1399d9 !important;
+ }
+ 
+ .wpb-portfolio-body .wpb-portfolio-filter li a:hover {
+   background-color: #1399d9 !important;
+   color: #fff !important;
+ }
+ 
+ .wpb-input-field input, .wpb-input-field textarea {
+   /* RGBA required */
+   background: rgba(19, 153, 217, 0.55);
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-input-field input:focus, .wpb-input-field textarea:focus {
+   /* RGBA required */
+   background: rgba(19, 153, 217, 1);
+   color: #fff !important;
+ }
+ 
+ .wpb-portfolio-item .wpb-portfolio-thumbnail .wpb-portfolio-overlay {
+   /* RGBA required */
+   background: rgba(19, 153, 217, 0.6);
+ }
+ 
+ .wpb-footer-menu li a.active {
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-menu-container .wpb-main-menu-child li a:hover {
+   color: #ffffff;
+   background-color: #1399d9;
+ }
+ 
+ p a {
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-comment-item .wpb-comment-date {
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-single-portfolio .wpb-portfolio-description ul li p.wpb-list-content {
+   color: #1399d9 !important;
+ }
+ 
+ .wpb-widget-box:hover [class*="wpb-icon"] { 
+   color: #16709b !important;
+ }
+ 
+ .wpb-logo-container a:hover {
+   color: #1399d9 !important;
+ }
