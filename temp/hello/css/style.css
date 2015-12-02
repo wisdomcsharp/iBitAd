@@ -1,0 +1,118 @@
+
+body:before {
+    height: 250px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+body {
+    background-color: #e3ebef;
+    color: #525355;
+    font-family: "ProximaNova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+* {
+    -moz-box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+a {
+    color: #2E9FFF;
+    text-decoration: none;
+    transition: color 0.2s ease 0s;
+}
+img {
+    border: 0 none;
+    height: auto;
+    vertical-align: middle;
+}
+
+.login, .signup {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 0 0 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 30px 40px;
+    width: 478px;
+}
+form {
+    margin-bottom: 0;
+}
+.login h1, .signup h1 {
+    color: #546673;
+    font-family: "ProximaNova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h1 {
+    color: #000000;
+    font-family: "Gotham Rounded A","Gotham Rounded B","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1em;
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: "Gotham Rounded A","Gotham Rounded B","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    margin: 0;
+    text-rendering: optimizelegibility;
+}
+
+input[type="text"], input[type="password"] {
+    transition: background 0.5s ease 0s, border-color 0.5s ease 0s;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #525355;
+    display: inline-block;
+    font-size: 16px;
+    height: 44.2px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    padding: 4px 6px;
+}
+input {
+    border: 2px solid #E4E7EE;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: none;
+	-moz-box-sizing: border-box;
+    width: 100%;
+}
+
+input, textarea, select, .uneditable-input {
+    border: 1px solid #A3ACB8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08) inset;
+}
+input, button, select, textarea {
+    font-family: "ProximaNova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+label, input, button, select, textarea {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+}
+
+.login .password-container, .signup .password-container {
+    position: relative;
+}
+.login .password-container span, .signup .password-container span {
+    color: #7F919E;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
